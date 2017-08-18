@@ -1,0 +1,15 @@
+GDB
+Vinh-Ly 
+- disassemble
+- thread thread_id -> jump to the thread
+- info thread
+- comment for breakpoint
+
+create coredump file to transfer for another people
+generate-core-file file
+
+run core-file: gdb fileexe core-file
+
+
+Debug program during runtime
+> sudo gdb -pid 2441
